@@ -1,0 +1,7 @@
+#S3
+S3_KEY: ''
+S3_SECRET: ''
+S3_REGION: ''
+S3_ASSET_URL: ''
+S3_BUCKET_NAME: ''
+

@@ -1,0 +1,22 @@
+= simple_form_for Music.new do |f| 
+  %fieldset
+    .control-group
+      .controls
+        = f.input :name
+    .control-group
+      .controls
+        = f.input :song
+    = f.button :submit, "Send Message", :class => 'btn btn-primary btn-block'
+
+%table
+  %tr
+    %td ID
+    %td Name
+    %td Song
+    %td Convert
+  - musics.each do |music|
+    %tr
+      %td= music.id
+      %td= music.name
+      %td= music.song_url
+      %td= link_to 'Convert', make_mp3_path(music)
