@@ -23,7 +23,7 @@ gem "haml-rails", "~> 0.9"                                                      
 # Images
 gem 'carrierwave'
 gem 'fog'
-gem 'dragonfly', '~> 1.0.12'                                                         # on-the-fly processing
+gem 'dragonfly', '~> 1.4.0'                                                          # on-the-fly processing
 
 group :development, :test do
   gem "better_errors"                                                                # Better error page for Rack apps
